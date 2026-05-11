@@ -68,6 +68,7 @@
         <!-- Do not go to a newer version, the native libraries are not packaged properly -->
         <rocksdb.version>10.2.1</rocksdb.version>
         <micrometer.version>1.16.5</micrometer.version>
+        <micrometer.tracing.version>1.6.5</micrometer.tracing.version>
         <kryo.version>5.6.2</kryo.version>
         <lombok.version>1.18.44</lombok.version>
         <jodd.version>5.1.6</jodd.version>
@@ -853,6 +854,14 @@
                 <groupId>io.micrometer</groupId>
                 <artifactId>micrometer-bom</artifactId>
                 <version>${micrometer.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>io.micrometer</groupId>
+                <artifactId>micrometer-tracing-bom</artifactId>
+                <version>${micrometer.tracing.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
