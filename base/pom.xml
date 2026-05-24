@@ -730,7 +730,7 @@
             <dependency>
                 <groupId>com.bucket4j</groupId>
                 <artifactId>bucket4j_jdk17-core</artifactId>
-                <version>${bucket4j.version}8.16.0</version>
+                <version>${bucket4j.version}</version>
             </dependency>
 
             <dependency>
