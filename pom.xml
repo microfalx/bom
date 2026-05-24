@@ -35,14 +35,21 @@
     </parent>
 
     <name>BOM</name>
-    <description>A Bill Of Materials for Java projects using the latest versions of popular open source projects
-    </description>
+    <description>A Bill Of Materials for Java projects using the latest versions of popular open source projects</description>
     <url>https://github.com/adrian-tarau/bom</url>
 
     <organization>
         <name>Adrian Tarau</name>
         <url>https://github.com/adrian-tarau</url>
     </organization>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
 
     <scm>
         <connection>scm:git:https://github.com/adrian-tarau/bom</connection>
