@@ -58,7 +58,7 @@
         <jspecify.version>1.0.0</jspecify.version>
         <dom4j.version>2.2.0</dom4j.version>
         <google.guava.version>33.6.0-jre</google.guava.version>
-        <google.protobuf.version>4.34.1</google.protobuf.version>
+        <google.protobuf.version>4.35.0</google.protobuf.version>
         <classindex.version>3.13</classindex.version>
         <sshd.version>2.17.1</sshd.version>
         <aws.s3.version>2.32.24</aws.s3.version>
@@ -80,7 +80,7 @@
         <ipaddress.version>5.6.2</ipaddress.version>
         <joor.version>0.9.15</joor.version>
         <ulidj.version>2.0.0</ulidj.version>
-        <netty.version>4.2.13.Final</netty.version>
+        <netty.version>4.2.14.Final</netty.version>
         <syslog4j.version>0.9.63</syslog4j.version>
         <snmp4j.version>3.10.0</snmp4j.version>
         <snmp4j.agent.version>3.8.3</snmp4j.agent.version>
@@ -93,6 +93,9 @@
         <jackson.version>2.21.3</jackson.version>
         <jackson.annotations.version>2.21</jackson.annotations.version>
         <quartz.version>2.5.2</quartz.version>
+        <zip4j.version>2.11.6</zip4j.version>
+        <bucket4j.version>8.19.0</bucket4j.version>
+        <modelmapper.version>3.2.6</modelmapper.version>
         <fliptables.version>1.1.1</fliptables.version>
         <mapstruct.version>1.6.3</mapstruct.version>
         <!-- Do not go to 5.0.x yet as there are some issues with it -->
@@ -117,7 +120,7 @@
 
         <!-- Tests -->
 
-        <junit.version>6.0.3</junit.version>
+        <junit.version>6.1.0</junit.version>
         <assertj.version>3.27.7</assertj.version>
         <assertj.guava.version>3.27.7</assertj.guava.version>
         <mockito.version>5.23.0</mockito.version>
@@ -716,6 +719,30 @@
                         <artifactId>slf4j-api</artifactId>
                     </exclusion>
                 </exclusions>
+            </dependency>
+
+            <dependency>
+                <groupId>net.lingala.zip4j</groupId>
+                <artifactId>zip4j</artifactId>
+                <version>${zip4j.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.bucket4j</groupId>
+                <artifactId>bucket4j_jdk17-core</artifactId>
+                <version>${bucket4j.version}8.16.0</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.modelmapper</groupId>
+                <artifactId>modelmapper</artifactId>
+                <version>${modelmapper.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.modelmapper.extensions</groupId>
+                <artifactId>modelmapper-spring</artifactId>
+                <version>${modelmapper.version}</version>
             </dependency>
 
             <dependency>
