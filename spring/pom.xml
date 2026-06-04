@@ -29,7 +29,7 @@
     <parent>
         <groupId>net.microfalx.bom</groupId>
         <artifactId>bom</artifactId>
-        <version>1.0.19</version>
+        <version>1.0.20</version>
     </parent>
 
     <name>BOM :: Spring</name>
@@ -286,6 +286,24 @@
                                     <ignoreVersion>
                                         <type>regex</type>
                                         <version>6.*</version>
+                                    </ignoreVersion>
+                                </ignoreVersions>
+                            </rule>
+                            <rule>
+                                <groupId>org.springframework.amqp</groupId>
+                                <ignoreVersions>
+                                    <ignoreVersion>
+                                        <type>regex</type>
+                                        <version>4.*</version>
+                                    </ignoreVersion>
+                                </ignoreVersions>
+                            </rule>
+                            <rule>
+                                <groupId>org.springframework.ldap</groupId>
+                                <ignoreVersions>
+                                    <ignoreVersion>
+                                        <type>regex</type>
+                                        <version>4.*</version>
                                     </ignoreVersion>
                                 </ignoreVersions>
                             </rule>
