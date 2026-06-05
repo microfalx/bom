@@ -675,6 +675,12 @@
             </dependency>
 
             <dependency>
+                <groupId>info.picocli</groupId>
+                <artifactId>picocli-codegen</artifactId>
+                <version>${picocli.version}</version>
+            </dependency>
+
+            <dependency>
                 <groupId>io.azam.ulidj</groupId>
                 <artifactId>ulidj</artifactId>
                 <version>${ulidj.version}</version>
