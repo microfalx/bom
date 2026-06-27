@@ -40,7 +40,7 @@
 
         <slf4j.version>2.0.18</slf4j.version>
         <log4j.version>2.26.0</log4j.version>
-        <logback.version>1.5.34</logback.version>
+        <logback.version>1.5.37</logback.version>
 
         <apache.commons.lang.version>3.20.0</apache.commons.lang.version>
         <apache.commons.compress.version>1.28.0</apache.commons.compress.version>
@@ -58,7 +58,7 @@
         <jspecify.version>1.0.0</jspecify.version>
         <dom4j.version>2.2.0</dom4j.version>
         <google.guava.version>33.6.0-jre</google.guava.version>
-        <google.protobuf.version>4.35.0</google.protobuf.version>
+        <google.protobuf.version>4.35.1</google.protobuf.version>
         <classindex.version>3.13</classindex.version>
         <sshd.version>2.18.0</sshd.version>
         <aws.s3.version>2.32.24</aws.s3.version>
@@ -67,8 +67,8 @@
         <jsch.version>0.1.55</jsch.version>
         <!-- Do not go to a newer version, the native libraries are not packaged properly -->
         <rocksdb.version>10.10.1.1</rocksdb.version>
-        <micrometer.version>1.16.5</micrometer.version>
-        <micrometer.tracing.version>1.6.5</micrometer.tracing.version>
+        <micrometer.version>1.17.0</micrometer.version>
+        <micrometer.tracing.version>1.7.0</micrometer.tracing.version>
         <kryo.version>5.6.2</kryo.version>
         <lombok.version>1.18.46</lombok.version>
         <jodd.version>5.1.6</jodd.version>
@@ -76,18 +76,18 @@
         <mvel.version>2.5.2.Final</mvel.version>
         <jsqlparser.version>5.3</jsqlparser.version>
         <logstash-gelf.version>1.15.1</logstash-gelf.version>
-        <datafaker.version>2.5.4</datafaker.version>
+        <datafaker.version>2.7.0</datafaker.version>
         <ipaddress.version>5.6.2</ipaddress.version>
         <joor.version>0.9.15</joor.version>
         <ulidj.version>2.0.0</ulidj.version>
         <netty.version>4.2.15.Final</netty.version>
         <syslog4j.version>0.9.63</syslog4j.version>
-        <snmp4j.version>3.10.0</snmp4j.version>
-        <snmp4j.agent.version>3.8.3</snmp4j.agent.version>
+        <snmp4j.version>3.12.2</snmp4j.version>
+        <snmp4j.agent.version>3.9.1</snmp4j.agent.version>
         <jsmiparser.version>0.14</jsmiparser.version>
         <syslog.version>1.1.7</syslog.version>
         <subethasmtp.version>7.2.2</subethasmtp.version>
-        <oshi.version>7.2.1</oshi.version>
+        <oshi.version>7.3.2</oshi.version>
         <jansi.version>2.4.3</jansi.version>
         <thymeleaf.version>3.1.4.RELEASE</thymeleaf.version>
         <jackson.version>2.22.0</jackson.version>
@@ -110,14 +110,15 @@
         <postgres.version>42.7.11</postgres.version>
         <vertica.version>25.3.0-0</vertica.version>
         <mongodb.version>5.8.0</mongodb.version>
-        <mariadb.version>3.5.8</mariadb.version>
+        <mariadb.version>3.5.9</mariadb.version>
         <sqlite.version>3.53.2.0</sqlite.version>
         <cassandra.version>4.19.3</cassandra.version>
         <h2.version>2.4.240</h2.version>
         <ojdbc.version>23.26.2.0.0</ojdbc.version>
-        <hikaricp.version>7.0.2</hikaricp.version>
-        <jooq.version>3.21.5</jooq.version>
+        <hikaricp.version>7.1.0</hikaricp.version>
+        <jooq.version>3.21.6</jooq.version>
         <byte-buddy.version>1.18.10</byte-buddy.version>
+        <flyway.version>12.9.0</flyway.version>
 
         <!-- Tests -->
 
@@ -125,10 +126,10 @@
         <assertj.version>3.27.7</assertj.version>
         <assertj.guava.version>3.27.7</assertj.guava.version>
         <mockito.version>5.23.0</mockito.version>
-        <instancio.version>5.5.1</instancio.version>
+        <instancio.version>5.6.0</instancio.version>
         <jmh.version>1.37</jmh.version>
         <awaitility.version>4.3.0</awaitility.version>
-        <selenium.version>4.44.0</selenium.version>
+        <selenium.version>4.45.0</selenium.version>
         <webdrivermanager.version>6.3.4</webdrivermanager.version>
         <!-- Do not upgrade to 5.X yet, Serenity is not compatible -->
         <serenity.version>4.3.4</serenity.version>
@@ -194,6 +195,14 @@
                 <groupId>org.seleniumhq.selenium</groupId>
                 <artifactId>selenium-bom</artifactId>
                 <version>${selenium.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>io.dropwizard.flywaydb</groupId>
+                <artifactId>flyway-bom</artifactId>
+                <version>${flyway.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
