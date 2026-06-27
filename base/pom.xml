@@ -89,7 +89,7 @@
         <subethasmtp.version>7.2.2</subethasmtp.version>
         <oshi.version>7.3.2</oshi.version>
         <jansi.version>2.4.3</jansi.version>
-        <thymeleaf.version>3.1.4.RELEASE</thymeleaf.version>
+        <thymeleaf.version>3.1.5.RELEASE</thymeleaf.version>
         <jackson.version>2.22.0</jackson.version>
         <jackson.annotations.version>2.22</jackson.annotations.version>
         <quartz.version>2.5.2</quartz.version>
@@ -133,7 +133,7 @@
         <webdrivermanager.version>6.3.4</webdrivermanager.version>
         <!-- Do not upgrade to 5.X yet, Serenity is not compatible -->
         <serenity.version>4.3.4</serenity.version>
-        <cucumber.version>7.19.0</cucumber.version>
+        <cucumber.version>7.34.4</cucumber.version>
         <testcontainers.version>1.21.4</testcontainers.version>
 
     </properties>

@@ -70,7 +70,7 @@
         <kotlin.version>2.4.0</kotlin.version>
         <kotlin.coroutines.version>1.11.0</kotlin.coroutines.version>
         <kotlin.serialization.version>1.11.0</kotlin.serialization.version>
-        <graphql-java.version>22.3</graphql-java.version>
+        <graphql-java.version>22.4</graphql-java.version>
         <djl.version>0.36.0</djl.version>
         <djl.llama.version>0.28.0</djl.llama.version>
 
