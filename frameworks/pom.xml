@@ -38,40 +38,40 @@
 
         <!-- Runtime -->
 
-        <apache.lucene.version>10.5.0</apache.lucene.version>
-        <apache.tika.version>3.3.1</apache.tika.version>
-        <apache.pulsar.version>4.2.2</apache.pulsar.version>
+        <apache.lucene.version>10.5.1</apache.lucene.version>
+        <apache.tika.version>3.3.2</apache.tika.version>
+        <apache.pulsar.version>4.2.4</apache.pulsar.version>
         <apache.kafka.version>4.3.1</apache.kafka.version>
-        <apache.activemq.version>6.2.6</apache.activemq.version>
-        <apache.activemq.artemis.version>2.54.0</apache.activemq.artemis.version>
+        <apache.activemq.version>6.3.2</apache.activemq.version>
+        <apache.activemq.artemis.version>2.57.0</apache.activemq.artemis.version>
         <!-- Do not use the latest Groovy version as it breaks compatibility with some frameworks -->
-        <apache.groovy.version>4.0.32</apache.groovy.version>
+        <apache.groovy.version>4.0.33</apache.groovy.version>
 
-        <azure.cloud.version>1.3.7</azure.cloud.version>
-        <awssdk.version>2.46.17</awssdk.version>
-        <google.cloud.version>26.84.0</google.cloud.version>
+        <azure.cloud.version>1.3.8</azure.cloud.version>
+        <awssdk.version>2.55.1</awssdk.version>
+        <google.cloud.version>26.88.1</google.cloud.version>
 
-        <grpc.version>1.82.1</grpc.version>
-        <opentelemetry.version>1.63.0</opentelemetry.version>
-        <prometheus.metrics.version>1.8.0</prometheus.metrics.version>
+        <grpc.version>1.84.0</grpc.version>
+        <opentelemetry.version>1.66.0</opentelemetry.version>
+        <prometheus.metrics.version>1.9.0</prometheus.metrics.version>
         <rest-assured.version>5.5.7</rest-assured.version>
         <rsocket.version>1.1.5</rsocket.version>
-        <projectreactor.version>2025.0.6</projectreactor.version>
+        <projectreactor.version>2025.0.7</projectreactor.version>
         <!-- Do not use the latest Jetty version as it breaks compatibility with some frameworks -->
-        <jetty.version>12.0.36</jetty.version>
-        <jetty-ee10.version>12.0.36</jetty-ee10.version>
+        <jetty.version>12.0.39</jetty.version>
+        <jetty-ee10.version>12.0.39</jetty-ee10.version>
         <!-- Do not use the latest Jersey version as it breaks compatibility with some frameworks -->
         <jersey.version>3.1.12</jersey.version>
         <!-- Do not use hibernate 7 yet as Spring Boot does not support it -->
-        <hibernate.version>6.6.53.Final</hibernate.version>
+        <hibernate.version>6.6.57.Final</hibernate.version>
         <zipkin.brave.version>6.3.1</zipkin.brave.version>
         <zipkin.reporter.version>3.5.3</zipkin.reporter.version>
-        <infinispan.version>16.2.1</infinispan.version>
-        <kotlin.version>2.4.0</kotlin.version>
+        <infinispan.version>16.2.3</infinispan.version>
+        <kotlin.version>2.4.20</kotlin.version>
         <kotlin.coroutines.version>1.11.0</kotlin.coroutines.version>
         <kotlin.serialization.version>1.11.0</kotlin.serialization.version>
         <graphql-java.version>22.4</graphql-java.version>
-        <djl.version>0.36.0</djl.version>
+        <djl.version>0.38.0</djl.version>
         <djl.llama.version>0.28.0</djl.llama.version>
 
     </properties>
@@ -741,6 +741,15 @@
                                     <ignoreVersion>
                                         <type>regex</type>
                                         <version>2.*</version>
+                                    </ignoreVersion>
+                                </ignoreVersions>
+                            </rule>
+                            <rule>
+                                <groupId>org.apache.tika</groupId>
+                                <ignoreVersions>
+                                    <ignoreVersion>
+                                        <type>regex</type>
+                                        <version>4.*</version>
                                     </ignoreVersion>
                                 </ignoreVersions>
                             </rule>
