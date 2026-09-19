@@ -51,7 +51,7 @@
         <apache.commons.email.version>1.6.0</apache.commons.email.version>
         <apache.commons.csv.version>1.14.1</apache.commons.csv.version>
         <apache.commons.bean.version>1.11.0</apache.commons.bean.version>
-        <apache.tika.version>4.0.0</apache.tika.version>
+        <apache.tika.version>3.3.2</apache.tika.version>
         <apache.derby.version>10.17.1.0</apache.derby.version>
         <apache.james.version>0.8.15</apache.james.version>
 
