@@ -39,6 +39,7 @@
         <!-- Runtime -->
 
         <spring.boot.version>3.5.16</spring.boot.version>
+        <spring.boot.admin.version>3.5.11</spring.boot.admin.version>
         <spring.ai.version>1.1.8</spring.ai.version>
         <springdoc.openapi.version>2.9.1</springdoc.openapi.version>
 
@@ -73,6 +74,14 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
                 <version>${spring.boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>de.codecentric</groupId>
+                <artifactId>spring-boot-admin-dependencies</artifactId>
+                <version>${spring.boot.admin.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -264,6 +273,16 @@
                             <!-- From Spring Module -->
                             <rule>
                                 <groupId>org.springframework.boot</groupId>
+                                <ignoreVersions>
+                                    <ignoreVersion>
+                                        <type>regex</type>
+                                        <version>4.*</version>
+                                    </ignoreVersion>
+                                </ignoreVersions>
+                            </rule>
+                            <rule>
+                                <groupId>de.codecentric</groupId>
+                                <artifactId>spring-boot-admin-*</artifactId>
                                 <ignoreVersions>
                                     <ignoreVersion>
                                         <type>regex</type>
