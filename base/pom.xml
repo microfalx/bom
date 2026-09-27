@@ -134,7 +134,7 @@
         <webdrivermanager.version>6.4.0</webdrivermanager.version>
         <!-- Do not upgrade to 5.X yet, Serenity is not compatible -->
         <serenity.version>4.3.4</serenity.version>
-        <cucumber.version>7.34.8</cucumber.version>
+        <cucumber.version>7.34.9</cucumber.version>
         <testcontainers.version>1.21.4</testcontainers.version>
 
     </properties>
