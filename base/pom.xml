@@ -40,85 +40,85 @@
 
         <slf4j.version>2.0.20</slf4j.version>
         <log4j.version>2.26.1</log4j.version>
-        <logback.version>1.6.4</logback.version>
+        <logback.version>1.6.6</logback.version>
 
-        <apache.commons.lang.version>3.20.0</apache.commons.lang.version>
+        <apache.commons.lang.version>3.21.0</apache.commons.lang.version>
         <apache.commons.compress.version>1.28.0</apache.commons.compress.version>
-        <apache.commons.codec.version>1.22.1</apache.commons.codec.version>
+        <apache.commons.codec.version>1.23.0</apache.commons.codec.version>
         <apache.httpclient.version>4.5.14</apache.httpclient.version>
         <apache.commons.io.version>2.22.0</apache.commons.io.version>
         <apache.commons.math.version>3.6.1</apache.commons.math.version>
         <apache.commons.email.version>1.6.0</apache.commons.email.version>
         <apache.commons.csv.version>1.14.1</apache.commons.csv.version>
         <apache.commons.bean.version>1.11.0</apache.commons.bean.version>
-        <apache.tika.version>3.3.2</apache.tika.version>
+        <apache.tika.version>3.3.3</apache.tika.version>
         <apache.derby.version>10.17.1.0</apache.derby.version>
         <apache.james.version>0.8.15</apache.james.version>
 
         <jspecify.version>1.0.1</jspecify.version>
         <dom4j.version>2.2.0</dom4j.version>
-        <google.guava.version>33.7.1-jre</google.guava.version>
+        <google.guava.version>33.8.0-jre</google.guava.version>
         <google.protobuf.version>4.36.2</google.protobuf.version>
         <classindex.version>3.13</classindex.version>
-        <sshd.version>2.19.0</sshd.version>
+        <sshd.version>2.20.1</sshd.version>
         <aws.s3.version>2.32.24</aws.s3.version>
         <!-- Do not go to 8.6.x yet since it depends on OkHttp 5.X -->
         <minio.version>8.5.17</minio.version>
         <jsch.version>0.1.55</jsch.version>
         <!-- Do not go to a newer version, the native libraries are not packaged properly -->
         <rocksdb.version>10.10.1.1</rocksdb.version>
-        <micrometer.version>1.17.1</micrometer.version>
-        <micrometer.tracing.version>1.7.1</micrometer.tracing.version>
-        <kryo.version>5.6.2</kryo.version>
+        <micrometer.version>1.17.2</micrometer.version>
+        <micrometer.tracing.version>1.7.2</micrometer.tracing.version>
+        <kryo.version>5.7.1</kryo.version>
         <lombok.version>1.18.48</lombok.version>
         <jodd.version>5.1.6</jodd.version>
         <flexmark.version>0.64.8</flexmark.version>
-        <mvel.version>2.5.4.Final</mvel.version>
+        <mvel.version>2.6.0.Final</mvel.version>
         <jsqlparser.version>5.4</jsqlparser.version>
         <logstash-gelf.version>1.15.1</logstash-gelf.version>
         <datafaker.version>2.7.0</datafaker.version>
         <ipaddress.version>5.6.2</ipaddress.version>
-        <joor.version>0.9.15</joor.version>
+        <joor.version>0.9.17</joor.version>
         <ulidj.version>2.0.0</ulidj.version>
-        <netty.version>4.2.18.Final</netty.version>
+        <netty.version>4.2.20.Final</netty.version>
         <syslog4j.version>0.9.63</syslog4j.version>
-        <snmp4j.version>3.13.1</snmp4j.version>
+        <snmp4j.version>3.13.2</snmp4j.version>
         <snmp4j.agent.version>3.10.1</snmp4j.agent.version>
         <jsmiparser.version>0.14</jsmiparser.version>
         <syslog.version>1.1.7</syslog.version>
         <subethasmtp.version>7.2.2</subethasmtp.version>
-        <oshi.version>7.6.1</oshi.version>
+        <oshi.version>7.7.3</oshi.version>
         <jansi.version>2.4.3</jansi.version>
         <thymeleaf.version>3.1.5.RELEASE</thymeleaf.version>
-        <jackson.version>2.22.3</jackson.version>
+        <jackson.version>2.22.4</jackson.version>
         <jackson.annotations.version>2.22</jackson.annotations.version>
         <quartz.version>2.5.2</quartz.version>
         <zip4j.version>2.11.6</zip4j.version>
-        <bucket4j.version>8.20.0</bucket4j.version>
-        <modelmapper.version>3.2.6</modelmapper.version>
+        <bucket4j.version>8.22.0</bucket4j.version>
+        <modelmapper.version>3.2.8</modelmapper.version>
         <fliptables.version>1.1.1</fliptables.version>
         <mapstruct.version>1.6.3</mapstruct.version>
         <!-- Do not go to 5.0.x yet as there are some issues with it -->
-        <okhttp.version>4.12.0</okhttp.version>
+        <okhttp.version>4.12.1</okhttp.version>
         <retrofit2.version>3.0.0</retrofit2.version>
-        <jinjava.version>2.8.4</jinjava.version>
-        <caffeine.version>3.3.0</caffeine.version>
+        <jinjava.version>2.8.5</jinjava.version>
+        <caffeine.version>3.3.1</caffeine.version>
         <picocli.version>4.7.7</picocli.version>
 
         <!-- Database -->
-        <mysql.version>26.7.0</mysql.version>
-        <postgres.version>42.7.13</postgres.version>
+        <mysql.version>26.10.0</mysql.version>
+        <postgres.version>42.7.14</postgres.version>
         <vertica.version>25.3.0-0</vertica.version>
-        <mongodb.version>5.13.0</mongodb.version>
-        <mariadb.version>3.5.10</mariadb.version>
-        <sqlite.version>3.53.4.0</sqlite.version>
-        <cassandra.version>4.19.3</cassandra.version>
+        <mongodb.version>5.14.0</mongodb.version>
+        <mariadb.version>4.0.0</mariadb.version>
+        <sqlite.version>3.54.1.0</sqlite.version>
+        <cassandra.version>4.19.4</cassandra.version>
         <h2.version>2.5.252</h2.version>
-        <ojdbc.version>23.26.3.0.0</ojdbc.version>
+        <ojdbc.version>23.26.4.0.0</ojdbc.version>
         <hikaricp.version>7.1.0</hikaricp.version>
         <jooq.version>3.21.9</jooq.version>
-        <byte-buddy.version>1.18.14</byte-buddy.version>
-        <flyway.version>13.8.0</flyway.version>
+        <byte-buddy.version>1.18.17</byte-buddy.version>
+        <flyway.version>13.12.1</flyway.version>
         <system-stubs.version>2.1.8</system-stubs.version>
 
         <!-- Tests -->
@@ -127,10 +127,10 @@
         <assertj.version>3.27.7</assertj.version>
         <assertj.guava.version>3.27.7</assertj.guava.version>
         <mockito.version>5.24.0</mockito.version>
-        <instancio.version>6.1.0</instancio.version>
+        <instancio.version>6.2.1</instancio.version>
         <jmh.version>1.37</jmh.version>
         <awaitility.version>4.3.0</awaitility.version>
-        <selenium.version>4.49.0</selenium.version>
+        <selenium.version>4.52.0</selenium.version>
         <webdrivermanager.version>6.4.0</webdrivermanager.version>
         <!-- Do not upgrade to 5.X yet, Serenity is not compatible -->
         <serenity.version>4.3.4</serenity.version>
@@ -1065,6 +1065,33 @@
                                     <ignoreVersion>
                                         <type>regex</type>
                                         <version>.*-jdk5</version>
+                                    </ignoreVersion>
+                                </ignoreVersions>
+                            </rule>
+                            <rule>
+                                <groupId>org.apache.tika</groupId>
+                                <ignoreVersions>
+                                    <ignoreVersion>
+                                        <type>regex</type>
+                                        <version>4.*</version>
+                                    </ignoreVersion>
+                                </ignoreVersions>
+                            </rule>
+                            <rule>
+                                <groupId>org.rocksdb</groupId>
+                                <ignoreVersions>
+                                    <ignoreVersion>
+                                        <type>regex</type>
+                                        <version>11.*</version>
+                                    </ignoreVersion>
+                                </ignoreVersions>
+                            </rule>
+                            <rule>
+                                <groupId>io.cucumber</groupId>
+                                <ignoreVersions>
+                                    <ignoreVersion>
+                                        <type>regex</type>
+                                        <version>8.*</version>
                                     </ignoreVersion>
                                 </ignoreVersions>
                             </rule>

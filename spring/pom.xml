@@ -41,7 +41,7 @@
         <spring.boot.version>3.5.16</spring.boot.version>
         <spring.boot.admin.version>3.5.11</spring.boot.admin.version>
         <spring.ai.version>1.1.8</spring.ai.version>
-        <springdoc.openapi.version>2.9.1</springdoc.openapi.version>
+        <springdoc.openapi.version>2.10.0</springdoc.openapi.version>
 
         <thymeleaf.version>3.1.5.RELEASE</thymeleaf.version>
 
@@ -197,6 +197,33 @@
                                     </ignoreVersion>
                                 </ignoreVersions>
                             </rule>
+                            <rule>
+                                <groupId>org.apache.tika</groupId>
+                                <ignoreVersions>
+                                    <ignoreVersion>
+                                        <type>regex</type>
+                                        <version>4.*</version>
+                                    </ignoreVersion>
+                                </ignoreVersions>
+                            </rule>
+                            <rule>
+                                <groupId>org.rocksdb</groupId>
+                                <ignoreVersions>
+                                    <ignoreVersion>
+                                        <type>regex</type>
+                                        <version>11.*</version>
+                                    </ignoreVersion>
+                                </ignoreVersions>
+                            </rule>
+                            <rule>
+                                <groupId>io.cucumber</groupId>
+                                <ignoreVersions>
+                                    <ignoreVersion>
+                                        <type>regex</type>
+                                        <version>8.*</version>
+                                    </ignoreVersion>
+                                </ignoreVersions>
+                            </rule>
                             <!-- From Frameworks Module -->
                             <rule>
                                 <groupId>org.hibernate.orm</groupId>
@@ -213,6 +240,7 @@
                                     <ignoreVersion>
                                         <type>regex</type>
                                         <version>5.*</version>
+                                        <version>6.*</version>
                                     </ignoreVersion>
                                 </ignoreVersions>
                             </rule>
@@ -262,11 +290,15 @@
                                 </ignoreVersions>
                             </rule>
                             <rule>
-                                <groupId>org.apache.tika</groupId>
+                                <groupId>org.apache.groovy</groupId>
                                 <ignoreVersions>
                                     <ignoreVersion>
                                         <type>regex</type>
-                                        <version>4.*</version>
+                                        <version>5.*</version>
+                                    </ignoreVersion>
+                                    <ignoreVersion>
+                                        <type>regex</type>
+                                        <version>6.*</version>
                                     </ignoreVersion>
                                 </ignoreVersions>
                             </rule>
